@@ -13,6 +13,8 @@ The goal of this End-to-End project is to:
   <img src="https://github.com/user-attachments/assets/91c68343-212d-4248-9758-751ef0ba2b01" width="500" />
 </p>
 
+---
+
 # Progress so far (10/12 Sunday)
 
 **1. Ran the initial classification model**

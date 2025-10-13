@@ -29,12 +29,12 @@ The goal of this End-to-End project is to:
 - The ratio improved to about **80% churn / 20% non-churn**, which made the data slightly more balanced.
 - However, **AUC and accuracy both decreased**, likely because the broader churn definition introduced more noise and blurred behavioral differences.
 
- 4. **Realization - classification accuracy is meaningless under extreme imbalance.**
+**4. Realization - classification accuracy is meaningless under extreme imbalance.**
 - The imbalance was too severe for traditional classification metrics to be meaningful.
 - Decided to **reframe the problem** from classification to a **ranking / probability model**,
 focusing on estimating each customer’s churn probability rather than a binary prediction.
 
-5. Future work
+**5. Future work**
 - Add **behavioral + sentiment features** (e.g., review text, complaint ratio)
 to see if model performance improves — this part is partially done and will be merged later.
 - Use **Feature Importance** and **SHAP** for model interpretation and key driver analysis.

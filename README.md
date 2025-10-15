@@ -2,14 +2,13 @@
 
 This project consists of **three main parts**, representing a full data science lifecycle from modeling to deployment.
 
-| Part | Description | File |
-|------|--------------|------|
-| 1️⃣ | Baseline churn prediction and problem reframing | `01_churn_prediction.ipynb` |
-| 2️⃣ | Probability and ranking-based modeling | `02_probability_ranking_modeling.ipynb` |
-| 3️⃣ | Streamlit deployment (Retention Strategy App) | `03_streamlit_retention_app.py` |
+| Part | What happens here | File |
+|-----:|--------------------|------|
+| 1️⃣ | **Imbalance diagnosis → reframing from binary classification to ranking/probability.** Create churn labels & baseline sanity checks. | `01_churn_prediction.ipynb` |
+| 2️⃣ | **Feature Integration (Sentiment & Behavior) → Probability/Ranking Modeling.** Merge RFM, delivery delays, review sentiment, product diversity, etc., then train calibrated ranking/probability models (AUC, Precision@K, Lift). | `02_ranking_model.ipynb` |
+| 3️⃣ | **Deployment – Retention Strategy App.** Visualize churn risk deciles and simulate actions/costs. | `03_streamlit_retention_app.py` |
 
-**Extended Work:**  
-- `A_sentiment_behavior_analysis.ipynb` — Behavioral and sentiment feature exploration (to be merged later)
+**Flow:** data → **sentiment/behavior features** → reframing → **feature integration + ranking model** → deployment
 
 ---
 

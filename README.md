@@ -1,17 +1,15 @@
-# E-Commerce Customer Churn Prediction
+# End-to-End Customer Churn Prediction
 
-The goal of this End-to-End project is to:
+This project consists of **three main parts**, representing a full data science lifecycle from modeling to deployment.
 
-1. Predict **customer churn risk** on an e-commerce platform.  
-2. Combine **sentiment analysis** with **behavioral data** to proactively identify high-risk customers at an early stage.  
-3. Enable the development of personalized **retention strategies** to maximize customer lifetime value.  
+| Part | Description | File |
+|------|--------------|------|
+| 1️⃣ | Baseline churn prediction and problem reframing | `01_churn_prediction.ipynb` |
+| 2️⃣ | Probability and ranking-based modeling | `02_probability_ranking_modeling.ipynb` |
+| 3️⃣ | Streamlit deployment (Retention Strategy App) | `03_streamlit_app.py` |
 
----
-
-# (practice) Tableau Visualization for class
-<p align="center">
-  <img src="https://github.com/user-attachments/assets/91c68343-212d-4248-9758-751ef0ba2b01" width="500" />
-</p>
+**Extended Work:**  
+- `A_behavioral_sentiment_analysis.ipynb` — Behavioral and sentiment feature exploration (to be merged later)
 
 ---
 

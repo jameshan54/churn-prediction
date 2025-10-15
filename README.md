@@ -6,10 +6,10 @@ This project consists of **three main parts**, representing a full data science 
 |------|--------------|------|
 | 1️⃣ | Baseline churn prediction and problem reframing | `01_churn_prediction.ipynb` |
 | 2️⃣ | Probability and ranking-based modeling | `02_probability_ranking_modeling.ipynb` |
-| 3️⃣ | Streamlit deployment (Retention Strategy App) | `03_streamlit_app.py` |
+| 3️⃣ | Streamlit deployment (Retention Strategy App) | `03_streamlit_retention_app.py` |
 
 **Extended Work:**  
-- `A_behavioral_sentiment_analysis.ipynb` — Behavioral and sentiment feature exploration (to be merged later)
+- `A_sentiment_behavior_analysis.ipynb` — Behavioral and sentiment feature exploration (to be merged later)
 
 ---
 

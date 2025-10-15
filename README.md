@@ -9,6 +9,8 @@ This project consists of **three main parts**, representing a full data science 
 | 3️⃣ | **Deployment – Retention Strategy App.** Visualize churn risk deciles and simulate actions/costs. | `03_streamlit_retention_app.py` |
 
 **Flow:** data → **sentiment/behavior features** → reframing → **feature integration + ranking model** → deployment
+> The project reframes churn prediction from a highly imbalanced binary classification task into a ranking-based probability modeling pipeline, enabling actionable retention insights.
+
 
 ---
 
